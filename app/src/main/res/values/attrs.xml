@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideToggleView">
+        <attr name="stv_textSize" format="dimension"/>
+        <attr name="stv_textColor" format="color"/>
+        <attr name="stv_openText" format="string"/>
+        <attr name="stv_closeText" format="string"/>
+        <attr name="stv_slideBlock" format="reference"/>
+        <attr name="stv_slideBlockWidth" format="dimension"/>
+        <attr name="stv_blockLeftMargin" format="dimension"/>
+        <attr name="stv_blockRightMargin" format="dimension"/>
+        <attr name="stv_blockTopMargin" format="dimension"/>
+        <attr name="stv_blockBottomMargin" format="dimension"/>
+        <attr name="stv_openBackground" format="reference"/>
+        <attr name="stv_closeBackground" format="reference"/>
+        <!--敏感度 距离触发开关距离-->
+        <attr name="stv_remain" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="wave_clip_to_children" format="boolean"/>
+    <attr name="wave_colored" format="boolean"/>
+    <attr name="wave_base_color" format="color"/>
+    <attr name="wave_highlight_color" format="color"/>
+    <attr name="wave_base_alpha" format="float"/>
+    <attr name="wave_highlight_alpha" format="float"/>
+    <attr name="wave_auto_start" format="boolean"/>
+    <attr name="wave_duration" format="integer"/>
+    <attr name="wave_repeat_count" format="integer"/>
+    <attr name="wave_repeat_delay" format="integer"/>
+    <attr name="wave_repeat_mode" format="enum">
+        <enum name="restart" value="1"/>
+        <enum name="reverse" value="2"/>
+    </attr>
+    <attr name="wave_direction" format="enum">
+        <enum name="left_to_right" value="0"/>
+        <enum name="top_to_bottom" value="1"/>
+        <enum name="right_to_left" value="2"/>
+        <enum name="bottom_to_top" value="3"/>
+    </attr>
+    <attr name="wave_dropoff" format="float"/>
+    <attr name="wave_fixed_width" format="dimension"/>
+    <attr name="wave_fixed_height" format="dimension"/>
+    <attr name="wave_intensity" format="float"/>
+    <attr name="wave_width_ratio" format="float"/>
+    <attr name="wave_height_ratio" format="float"/>
+    <attr name="wave_shape" format="enum">
+        <enum name="linear" value="0"/>
+        <enum name="radial" value="1"/>
+    </attr>
+    <attr name="wave_tilt" format="float"/>
+
+
+    <declare-styleable name="LightWaveTextView" >
+        <attr name="wave_clip_to_children"/>
+        <attr name="wave_colored"/>
+        <attr name="wave_base_color"/>
+        <attr name="wave_highlight_color"/>
+        <attr name="wave_base_alpha"/>
+        <attr name="wave_highlight_alpha"/>
+        <attr name="wave_auto_start"/>
+        <attr name="wave_duration"/>
+        <attr name="wave_repeat_count"/>
+        <attr name="wave_repeat_delay"/>
+        <attr name="wave_repeat_mode"/>
+        <attr name="wave_direction"/>
+
+        <attr name="wave_dropoff"/>
+        <attr name="wave_fixed_width"/>
+        <attr name="wave_fixed_height"/>
+        <attr name="wave_intensity"/>
+        <attr name="wave_width_ratio"/>
+        <attr name="wave_height_ratio"/>
+        <attr name="wave_shape"/>
+        <attr name="wave_tilt"/>
+    </declare-styleable>
+
+    <declare-styleable name="LightWaveFrameLayout">
+        <attr name="wave_clip_to_children"/>
+        <attr name="wave_colored"/>
+        <attr name="wave_base_color"/>
+        <attr name="wave_highlight_color"/>
+        <attr name="wave_base_alpha"/>
+        <attr name="wave_highlight_alpha"/>
+        <attr name="wave_auto_start"/>
+        <attr name="wave_duration"/>
+        <attr name="wave_repeat_count"/>
+        <attr name="wave_repeat_delay"/>
+        <attr name="wave_repeat_mode"/>
+        <attr name="wave_direction"/>
+
+        <attr name="wave_dropoff"/>
+        <attr name="wave_fixed_width"/>
+        <attr name="wave_fixed_height"/>
+        <attr name="wave_intensity"/>
+        <attr name="wave_width_ratio"/>
+        <attr name="wave_height_ratio"/>
+        <attr name="wave_shape"/>
+        <attr name="wave_tilt"/>
+    </declare-styleable>
+</resources>
